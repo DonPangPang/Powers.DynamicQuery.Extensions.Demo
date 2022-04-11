@@ -43,6 +43,11 @@ namespace Powers.DynamicQuery.Extensions.Sort
 
         public static IQueryable<TEntity> Sort<TEntity, TParameters>(this IQueryable<TEntity> query, TParameters parameters) where TParameters : IDynamicQuerySort
         {
+            if(parameters is null || string.IsNullOrEmpty(parameters.OrderBy))
+            {
+                return query
+            }
+
             return Sort(query, parameters.OrderBy);
         }
     }
