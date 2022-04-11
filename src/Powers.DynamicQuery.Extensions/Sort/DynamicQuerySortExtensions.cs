@@ -45,7 +45,7 @@ namespace Powers.DynamicQuery.Extensions.Sort
         {
             if(parameters is null || string.IsNullOrEmpty(parameters.OrderBy))
             {
-                return query
+                return query;
             }
 
             return Sort(query, parameters.OrderBy);
