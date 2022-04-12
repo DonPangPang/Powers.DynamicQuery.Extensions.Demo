@@ -9,7 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7F033DAA-F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{3D2688DE-6E41-4B71-8009-7CE60CB9ABC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Powers.DynamicQuery.Extensions", "src\Powers.DynamicQuery.Extensions\Powers.DynamicQuery.Extensions.csproj", "{8B4ACB8F-E1DE-4E42-9349-C059C01E9593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Powers.DynamicQuery.Extensions", "src\Powers.DynamicQuery.Extensions\Powers.DynamicQuery.Extensions.csproj", "{8B4ACB8F-E1DE-4E42-9349-C059C01E9593}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{189BC912-4D87-40AF-BA0B-FE3E4C50A906}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
