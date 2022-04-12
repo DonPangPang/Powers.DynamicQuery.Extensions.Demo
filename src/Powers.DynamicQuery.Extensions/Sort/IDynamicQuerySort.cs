@@ -6,6 +6,6 @@ namespace Powers.DynamicQuery.Extensions.Sort
 {
     public interface IDynamicQuerySort: ICustomQueryable
     {
-        public string? OrderBy { get; set; }
+        public string OrderBy { get; set; }
     }
 }
