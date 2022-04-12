@@ -11,5 +11,6 @@ namespace Powers.DynamicQuery.Extensions.Attributes
         public bool? CaseSensitive { get; set; } = false;
         public string? HasName { get; set; }
         public bool? UseOr { get; set; } = false;
+        public bool? UseNot { get; set; } = false;
     }
 }

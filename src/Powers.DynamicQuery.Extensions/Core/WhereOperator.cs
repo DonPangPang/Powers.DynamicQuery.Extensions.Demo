@@ -7,7 +7,6 @@ namespace Powers.DynamicQuery.Extensions.Core
     public enum WhereOperator
     {
         Equeals,
-        NotEqueals,
         GreaterThan,
         LessThan,
         GreaterThanOrEqual,

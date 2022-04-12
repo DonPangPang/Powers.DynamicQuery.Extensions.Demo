@@ -6,8 +6,10 @@ namespace Powers.DynamicQuery.Extensions.Pagination
 {
     public interface IDynamicQueryPaging: ICustomQueryable
     {
-        public int? PageNumber { get; set; }
+        public bool IsNeedPaged { get; set; }
 
-        public int? PageSize { get; set; }
+        public int PageNumber { get; set; }
+
+        public int PageSize { get; set; }
     }
 }
