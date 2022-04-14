@@ -6,15 +6,16 @@ namespace Powers.DynamicQuery.Extensions.Core
 {
     public enum WhereOperator
     {
-        Equeals,
+        Equals,
+        NotEquals,
         GreaterThan,
         LessThan,
-        GreaterThanOrEqual,
-        LessThanOrEqual,
+        GreaterThanOrEqualTo,
+        LessThanOrEqualTo,
         Contains,
         StartsWith,
         EndsWith,
-        LessThanOrEquealWhenNullable,
-        GreaterThanOrEquealWhenNullable
+        LessThanOrEqualWhenNullable,
+        GreaterThanOrEqualWhenNullable
     }
 }
